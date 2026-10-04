@@ -6,17 +6,17 @@ spec:
   workspaces:
     - name: shared-workspace
   tasks:
-    - name: npm-install
+    - name: npminstall
       taskRef:
         name: npm
       workspaces:
         - name: source
           workspace: shared-workspace
-    - name: run-tests
+    - name: tests
       taskRef:
         name: jasmine
       runAfter:
-        - npm-install
+        - npminstall
       workspaces:
         - name: source
           workspace: shared-workspace
@@ -24,7 +24,7 @@ spec:
       taskRef:
         name: build
       runAfter:
-        - run-tests
+        - tests
       workspaces:
         - name: source
           workspace: shared-workspace
