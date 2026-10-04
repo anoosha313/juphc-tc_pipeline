@@ -5,6 +5,11 @@ metadata:
 spec:
   pipelineRef:
     name: tax-calculator-pipeline
+  params:
+    - name: repo-url
+      value: https://github.com/anoosha313/juphc-tc_pipeline.git
+    - name: branch
+      value: main
   workspaces:
     - name: shared-workspace
       volumeClaimTemplate:
