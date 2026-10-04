@@ -1,0 +1,96 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 305B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 DONE 0.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 23.84kB done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/nginx:latest@sha256:0e768ba3686f7db3ab5687f1a65e641ef1e6d5b49e1d01a26d9f56d41e010a4f
+#5 resolve docker.io/library/nginx:latest@sha256:0e768ba3686f7db3ab5687f1a65e641ef1e6d5b49e1d01a26d9f56d41e010a4f 0.0s done
+#5 sha256:0e768ba3686f7db3ab5687f1a65e641ef1e6d5b49e1d01a26d9f56d41e010a4f 2.29kB / 2.29kB done
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 0B / 29.78MB 0.1s
+#5 sha256:3b9f3509a82680768cbbee872aecb680eb087285247d2fab6e9e89e8d9121ff9 0B / 628B 0.1s
+#5 sha256:8870c81b28342ca2f04849ba4b1b00f5b17d5bbd0c2bc312149f02006d035739 9.09kB / 9.09kB done
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 0B / 33.32MB 0.1s
+#5 sha256:3b9f3509a82680768cbbee872aecb680eb087285247d2fab6e9e89e8d9121ff9 628B / 628B 0.3s done
+#5 sha256:0b19be7179947001f6a48f13c58423b1427852de2546ba503f036df572ece10d 0B / 956B 0.4s
+#5 sha256:0b19be7179947001f6a48f13c58423b1427852de2546ba503f036df572ece10d 956B / 956B 0.6s done
+#5 sha256:8d2092eabbc5d47a8618fa66c9d8401abe0b82975095a583befe9ea9f6593cab 0B / 403B 0.8s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 2.10MB / 29.78MB 0.9s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 2.10MB / 33.32MB 0.9s
+#5 sha256:8d2092eabbc5d47a8618fa66c9d8401abe0b82975095a583befe9ea9f6593cab 403B / 403B 0.9s
+#5 sha256:8d2092eabbc5d47a8618fa66c9d8401abe0b82975095a583befe9ea9f6593cab 403B / 403B 0.9s done
+#5 sha256:6a24a6ebcf30e20b7399e8e49d114d16c641afecb94302c93a53239b2cd680dd 0B / 1.21kB 1.1s
+#5 sha256:6a24a6ebcf30e20b7399e8e49d114d16c641afecb94302c93a53239b2cd680dd 1.21kB / 1.21kB 1.2s done
+#5 sha256:45ef33eb91c8a1fddffe57a10a8f3444dcc55515bc0c01b1b7b69ba02eab66c1 0B / 1.40kB 1.2s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 4.19MB / 29.78MB 1.4s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 4.19MB / 33.32MB 1.4s
+#5 sha256:45ef33eb91c8a1fddffe57a10a8f3444dcc55515bc0c01b1b7b69ba02eab66c1 1.40kB / 1.40kB 1.4s done
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 6.29MB / 33.32MB 1.7s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 6.29MB / 29.78MB 1.9s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 8.39MB / 29.78MB 2.1s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 8.39MB / 33.32MB 2.1s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 10.49MB / 29.78MB 2.5s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 10.49MB / 33.32MB 2.5s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 12.58MB / 29.78MB 2.9s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 12.58MB / 33.32MB 2.9s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 15.73MB / 29.78MB 3.4s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 15.73MB / 33.32MB 3.4s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 17.83MB / 29.78MB 3.9s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 17.83MB / 33.32MB 3.9s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 19.92MB / 29.78MB 4.3s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 19.92MB / 33.32MB 4.3s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 22.02MB / 29.78MB 4.6s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 22.02MB / 33.32MB 4.6s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 24.12MB / 29.78MB 4.9s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 24.12MB / 33.32MB 4.9s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 26.21MB / 33.32MB 5.2s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 26.21MB / 29.78MB 5.3s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 28.31MB / 29.78MB 5.6s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 28.31MB / 33.32MB 5.6s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 30.41MB / 33.32MB 5.9s
+#5 sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 29.78MB / 29.78MB 5.9s done
+#5 extracting sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 32.51MB / 33.32MB 6.4s
+#5 sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 33.32MB / 33.32MB 6.6s done
+#5 extracting sha256:062e450697faa5f02a3a74eba9864ee4d79bc9cfbd65769fc6cdff2c05c6a053 1.9s done
+#5 extracting sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16
+#5 extracting sha256:39694cde734ef95d7d1da72615bb7b8361a035a0a2f92458acc533e5ae239e16 1.0s done
+#5 extracting sha256:3b9f3509a82680768cbbee872aecb680eb087285247d2fab6e9e89e8d9121ff9 done
+#5 extracting sha256:0b19be7179947001f6a48f13c58423b1427852de2546ba503f036df572ece10d
+#5 extracting sha256:0b19be7179947001f6a48f13c58423b1427852de2546ba503f036df572ece10d done
+#5 extracting sha256:8d2092eabbc5d47a8618fa66c9d8401abe0b82975095a583befe9ea9f6593cab done
+#5 extracting sha256:6a24a6ebcf30e20b7399e8e49d114d16c641afecb94302c93a53239b2cd680dd done
+#5 extracting sha256:45ef33eb91c8a1fddffe57a10a8f3444dcc55515bc0c01b1b7b69ba02eab66c1 done
+#5 DONE 9.4s
+
+#6 [2/6] COPY favicon.ico /usr/share/nginx/html/favicon.ico
+#6 DONE 4.3s
+
+#7 [3/6] COPY index.html /usr/share/nginx/html/index.html
+#7 DONE 0.2s
+
+#8 [4/6] COPY script.js /usr/share/nginx/html/script.js
+#8 DONE 0.4s
+
+#9 [5/6] COPY style.css /usr/share/nginx/html/style.css
+#9 DONE 0.2s
+
+#10 [6/6] COPY taxCalculator.js /usr/share/nginx/html/taxCalculator.js
+#10 DONE 0.2s
+
+#11 exporting to image
+#11 exporting layers 0.1s done
+#11 writing image sha256:3ae0255f971c16f9cc74750dd872be54916e26b57cf0a54488747bd259d0a1f4 done
+#11 naming to docker.io/library/zntwk-tax_calculator done
+#11 DONE 0.1s
